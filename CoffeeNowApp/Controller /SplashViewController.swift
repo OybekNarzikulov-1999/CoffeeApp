@@ -38,7 +38,7 @@ class SplashViewController: UIViewController {
         initSetups()
         initConstraints()
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             
             let loginPage = LoginViewController()
             loginPage.modalPresentationStyle = .fullScreen

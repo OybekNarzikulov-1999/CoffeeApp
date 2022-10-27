@@ -9,19 +9,17 @@ import Foundation
 import UIKit
 
 
-public  var windowWidth = UIScreen.main.bounds.width
-public  var windowHieight = UIScreen.main.bounds.height
-
-class CustomButtonCell: UITableViewCell {
+class CustomBorderButtonCell: UITableViewCell {
     
     var onAction: ((Bool) -> Void)?
     
-    func initViews(frame: CGRect) {
+    func initViews(mode: BorderButtonText,frame: CGRect) {
         
         let mainBtn = UIButton(frame: frame)
-        mainBtn.backgroundColor = .brown
+        mainBtn.backgroundColor = UIColor(rgb: 0x321D0B)
         mainBtn.layer.cornerRadius = 10
-        mainBtn.setTitle("OK", for: .normal)
+        mainBtn.setTitle(mode.title, for: .normal)
+        mainBtn.titleLabel?.font = .boldSystemFont(ofSize: 18)
         mainBtn.setTitleColor(UIColor.white, for: .normal)
         mainBtn.addTarget(self, action: #selector(tapped), for: .touchUpInside)
         self.contentView.addSubview(mainBtn)

@@ -3,4 +3,70 @@
    uuid = "D9F9299E-C978-4EA8-AC03-03DD276018FD"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FECF6170-25E5-4B8E-82D8-8E13A904D457"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoffeeNowApp/Cells/RecommendedCoffeesTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "initViews()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FECF6170-25E5-4B8E-82D8-8E13A904D457 - 186d8545eef4c2c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoffeeNowApp.RecommendedCoffeesTableViewCell.initViews() -&gt; ()"
+                  moduleName = "CoffeeNowApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oybeknarzikulov/Desktop/CoffeeNowApp/CoffeeNowApp/Cells/RecommendedCoffeesTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "FECF6170-25E5-4B8E-82D8-8E13A904D457 - 12bb2828afc1093a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "collectionView.getter : __C.UICollectionView"
+                  moduleName = "CoffeeNowApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oybeknarzikulov/Desktop/CoffeeNowApp/CoffeeNowApp/Cells/RecommendedCoffeesTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE3C1AC2-771C-48A8-98DA-6B061CF64948"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoffeeNowApp/Cells/CoffeeCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "initViews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
